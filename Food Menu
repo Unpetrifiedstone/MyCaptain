@@ -1,0 +1,35 @@
+#include<stdio.h>
+main(){
+int food;
+printf("Enter any food item number you like from the following:  \n1.Burger,Rs 129 \n2.French Fries,Rs 99 \n3.Pizza,Rs 239 \n4.Sandwich,Rs 149 \n5.Pasta,Rs 179");
+scanf("%d", &food);
+switch(food){
+	case 1: 
+	printf("Food item: Burger \nPrice: Rs 129 \nThank you for your order, your Burger will be served soon");
+	break;
+
+	case 2:
+	printf("Food item: French Fries \nPrice: Rs 99 \nThank you for your order, your French Fries will be served soon");
+	break;
+    
+	case 3:
+    printf("Food item: Pizza \nPrice: Rs 239 \nThank you for your order, your Pizza will be served soon");
+	break;
+   
+    case 4:
+    printf("Food item: Sandwich \nPrice: Rs 149 \nThank you for your order, your Sandwich will be served soon");
+	break;
+	
+    case 5:
+    printf("Food item: Pasta \nPrice: Rs 179 \nThank you for your order, your Pasta will be served soon");
+	break;
+	
+	default: 
+	printf("Sorry, we don't serve that"); 
+	break;
+	 
+	return 0;
+	
+}
+
+}
